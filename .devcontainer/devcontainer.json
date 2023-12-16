@@ -1,0 +1,70 @@
+{
+	"name": "Python 3",
+	
+
+
+	"dockerComposeFile": "docker-compose.yml",
+
+	"service": "devcontainer",
+	"runServices": [
+		"devcontainer"
+	],
+	"workspaceFolder": "/workspace",
+
+	"forwardPorts": [8888],
+
+	// Set *default* container specific settings.json values on container create.
+	//"settings":  {
+	//	"terminal.integrated.shell.linux": "/bin/bash",
+	//	"python.linting.enabled": true,
+	//	"python.linting.pylintEnabled": true,
+	//	"python.linting.flake8Path": "/usr/local/bin/flake8",
+	//	"python.linting.flake8Enabled": true,
+	//	"python.testing.pytestPath": "/usr/local/bin/pytest",
+	//	"python.testing.pytestEnabled": true,
+	//	"python.testing.nosetestsEnabled": false,
+	//	"python.testing.unittestEnabled": false,
+	//	"python.testing.pytestArgs": ["."]
+	
+	//},
+
+		// Configure tool-specific properties.
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			"settings": {
+				"terminal.integrated.shell.linux": "C:\\Program Files\\Git\\bin\\bash"
+			},
+	// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+				"ms-toolsai.jupyter",
+				"GitHub.copilot",
+				"GitHub.copilot-chat",
+				"ms-azuretools.vscode-docker",
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"github.vscode-pull-request-github",
+				//"ms-vscode.azure-account",
+				//"ms-vscode.azurecli",
+				//"ms-vscode.csharp",
+				"ms-vscode.powershell",
+				//"ms-vscode.vscode-typescript-tslint-plugin",
+				//"msazurermtools.azurerm-vscode-tools",
+				//"msjsdiag.debugger-for-chrome",
+				"redhat.vscode-yaml",
+				//"vsciot-vscode.azure-iot-tools",
+				//"vscode-azurefunctions-tools",
+				//"vscodevim.vim",
+				"yzhang.markdown-all-in-one"
+			]
+		}
+	},
+
+
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+    //"postCreateCommand": "pip install -r requirements.txt",
+
+	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+    "remoteUser": "vscode"
+}
