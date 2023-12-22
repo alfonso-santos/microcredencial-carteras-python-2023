@@ -13,3 +13,5 @@ cvxpy
 plotly
 seaborn
 matplotlib
+riskfolio-lib
+openpyxl
