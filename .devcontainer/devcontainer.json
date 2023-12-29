@@ -28,6 +28,10 @@
 	
 	//},
 
+	"containerEnv": {
+        "GRB_LICENSE_FILE": "/workspace/credentials/gurobi.lic"
+    },
+
 		// Configure tool-specific properties.
 	"customizations": {
 		// Configure properties specific to VS Code.

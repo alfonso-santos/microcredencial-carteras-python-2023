@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+#Licencies
+credentials/
+
 # Distribution / packaging
 .Python
 build/
