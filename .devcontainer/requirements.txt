@@ -16,3 +16,4 @@ matplotlib
 riskfolio-lib
 openpyxl
 gurobipy
+mosek
