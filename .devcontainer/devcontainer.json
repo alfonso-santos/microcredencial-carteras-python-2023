@@ -42,25 +42,30 @@
 			},
 	// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
+				"ms-python.python",
+				"ms-vscode.powershell",
 				"ms-toolsai.jupyter",
 				"GitHub.copilot",
 				"GitHub.copilot-chat",
 				"ms-azuretools.vscode-docker",
-				"ms-python.python",
 				"ms-python.vscode-pylance",
 				"github.vscode-pull-request-github",
+				"redhat.vscode-yaml",
+				"yzhang.markdown-all-in-one",
+				"dbaeumer.vscode-eslint",
+				"eamodio.gitlens",
+				"coenraads.bracket-pair-colorizer",
+				"visualstudioexptteam.vscodeintellicode",
+				"kevinrose.vsc-python-indent"
+				//"ms-vscode.vscode-typescript-tslint-plugin",
 				//"ms-vscode.azure-account",
 				//"ms-vscode.azurecli",
 				//"ms-vscode.csharp",
-				"ms-vscode.powershell",
-				//"ms-vscode.vscode-typescript-tslint-plugin",
 				//"msazurermtools.azurerm-vscode-tools",
 				//"msjsdiag.debugger-for-chrome",
-				"redhat.vscode-yaml",
 				//"vsciot-vscode.azure-iot-tools",
 				//"vscode-azurefunctions-tools",
 				//"vscodevim.vim",
-				"yzhang.markdown-all-in-one"
 			]
 		}
 	},
