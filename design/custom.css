@@ -1,24 +1,32 @@
 h1 {
-	color: #007700;
-	text-align: center;
+	color: #006600;
+	border-bottom: 2px solid #006600;
+	
 }
 
 h2 {
-	color: #007700;
+	color: #006600;
+	border-bottom: 1px solid #006600;
 }
 
 h3 {
-	color: #007700;
+	color: #006600;
+	font-variant: small-caps;
 }
 
 h4 {
-	color: #007700;
+	color: #006600;
+	font-variant: small-caps;
 }
 
 strong, b {
-	color: #007700;
+	color: #004400;
 }
 
 code {
 	font-weight: bold;
+}
+
+hr {
+	border-top: 1px solid #006600;
 }
