@@ -19,3 +19,4 @@ gurobipy
 mosek
 tqdm
 Pyarrow
+mplfinance
