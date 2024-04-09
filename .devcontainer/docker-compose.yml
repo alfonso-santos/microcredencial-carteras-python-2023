@@ -10,10 +10,10 @@ services:
       # mounts are relative to the first file in the list, which is a level up.
       
       # Sirve para la torre en casa
-      #- "C:/Users/alfon/OneDrive-UAM-Prof/OneDrive - UAM/Cursos Python/microcredencial-carteras-python-2023:/workspace:cached"
+      - "C:/Users/alfon/OneDrive-UAM-Prof/OneDrive - UAM/Cursos Python/microcredencial-carteras-python-2023:/workspace:cached"
 
       # Sirve para lenovo universidad
-      - "C:/Users/alfon/OneDrive - UAM/Cursos Python/microcredencial-carteras-python-2023:/workspace:cached"
+      #- "C:/Users/alfon/OneDrive - UAM/Cursos Python/microcredencial-carteras-python-2023:/workspace:cached"
     
     ports:
       - "8888:8888"
