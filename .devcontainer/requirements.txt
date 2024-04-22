@@ -20,3 +20,5 @@ mosek
 tqdm
 Pyarrow
 mplfinance
+beautifulsoup4
+fake-useragent

@@ -1,10 +1,14 @@
 FROM mcr.microsoft.com/vscode/devcontainers/python:3.11
 
+# Avoid prompts from apt
+ENV DEBIAN_FRONTEND=noninteractive
+
 #COPY .requirements.txt /tmp/
 COPY .devcontainer/requirements.txt /tmp/
 
 # Instala Git
 RUN apt-get update && \
+#    apt-get upgrade &&\
     apt-get install -y git && \
     rm -rf /var/lib/apt/lists/*
 
