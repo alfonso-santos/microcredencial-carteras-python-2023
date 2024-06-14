@@ -4,18 +4,6 @@ Material preparado para la primera edición de la microcredencial UAM de Python 
 
 Profesores:
 
-- [Christian Oliva](https://www.linkedin.com/in/christian-oliva-moya-ingeniero/).
-
-    - Doctorando en Ingeniería Informática y Telecomunicaciones. Universidad Autónoma de Madrid
-    
-    - Master en Investigación e Innovación en Inteligencia Computacional y Sistemas Interactivos - UAM
-    
-    - Grado en Ingeniería Informática - UAM
-    
-    - Profesor Ayudante Dpto. Ingeniería Informática. Escuela Politécnica Superior - UAM
-    
-    - Profesor en el Master en IA y Computación Cuántica aplicada a los mercados financieros (MIAX) - BME
-
 - [Alfonso Santos](https://www.uam.es/Economicas/santos-ramon-alfonso/1242667903456.htm?language=es&pid=1242653687745&title=Santos%20Ram?n%20Alfonso). 
 
     - Master de IA aplicado a los Mercados Financieros del Instituto  BME.
